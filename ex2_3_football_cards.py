@@ -29,7 +29,6 @@ for card in range(len(card_list)):
         terminated = True
         break
 
-
 print("Team A: - " + str(team_size - cards_A) + "; Team B: - " + str(team_size - cards_B) )
 if terminated:
     print("Game was terminated")
